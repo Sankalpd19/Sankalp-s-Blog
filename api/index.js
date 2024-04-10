@@ -8,4 +8,4 @@ mongoose.connect(process.env.MONGO).then(() => {console.log("Connected to MongoD
 const app = express();
 app.listen(3000, () => {
   console.log('Server is running on http://localhost:3000');
-});
+}); 
